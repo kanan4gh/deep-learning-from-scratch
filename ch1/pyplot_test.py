@@ -10,7 +10,7 @@ y2 = np.cos(x)
 
 # グラフの描画
 plt.plot(x, y1, label="sin")
-plt.plot(x, y2, label="cos")
+plt.plot(x, y2, linestyle="--", label="cos")
 plt.xlabel("x") # x軸ラベル
 plt.ylabel("y") # y軸ラベル
 plt.title('sin & cos') # タイトル
